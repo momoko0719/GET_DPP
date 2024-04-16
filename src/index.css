@@ -49,10 +49,6 @@
 }
 
 
-.chatpage {
-  min-height: 100vh;
-}
-
 .project-slogon {
   color: var(--polar-green-9, #135200);
   font-family: "Playfair Display", sans-serif;
@@ -256,19 +252,33 @@
 
 /*----------------chat page------------------*/
 .chatpage {
-  margin: 7%;
+  margin-top: 7%;
 }
 
 .center-div {
-  width: 55vw;
+  width: 60vw;
   height: 80vh;
-  
 }
 
 iframe {
   border: none;
 }
 
+
+.learnpage {
+  min-height: 100vh;
+  margin-top: 5%;
+}
+
+.cardbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 12%;
+}
+
+.FlashcardArray {
+  font-size: 80px;
+}
 
 
 

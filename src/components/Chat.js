@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 const Chat = () => {
   return (
     <div className="chatpage">
-      <div class="absolute inset-4 ">
         <div class="center-div">
           <iframe
             srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v1/inject.js'></script>
@@ -36,7 +35,6 @@ const Chat = () => {
             height="100%"
           ></iframe>
         </div>
-      </div>
     </div>
   );
 };
