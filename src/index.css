@@ -1,12 +1,12 @@
  body{
-  background: radial-gradient(ellipse at left, #eefff7, transparent),
-            radial-gradient(ellipse at right, #fffde8, transparent);
+  background: radial-gradient(ellipse at left, #e4fff1, transparent),
+            radial-gradient(ellipse at right, #fdf8ce, transparent);
 }
 
 
 .nav-bar {
 	padding: 10px 56px;
-  background: #fffefb
+  background: #fffdf9
 }
 
 .nav-item {
@@ -52,7 +52,7 @@
 .project-slogon {
   color: var(--polar-green-9, #135200);
   font-family: "Playfair Display", sans-serif;
-  font-size: 48px;
+  font-size: 46px;
   line-height: 80px;
   font-weight: 900;
 }
@@ -265,19 +265,40 @@ iframe {
 }
 
 
-.learnpage {
-  min-height: 70vh;
+.learn-page {
+  min-height: 80vh;
   margin-top: 5%;
 }
 
 .cardbox {
   display: flex;
   justify-content: center;
-  margin-top: 12%;
+  margin-top: 5%;
 }
 
 .FlashcardArray {
   font-size: 80px;
+}
+
+
+.collection-sidebar {
+  color: #000000;
+  margin-top: 6%;
+}
+
+.collection-sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  gap: 5px;
+}
+
+.flash-nav {
+  border-radius: 0px 5px 5px 0px;
+  height: 40px;
+  border: none;
+  background-color:#237804;
+  color: #ffffff;
 }
 
 
