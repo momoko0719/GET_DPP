@@ -359,8 +359,17 @@ iframe {
 }
 
 .card {
-  flex-basis: calc(33.333% - 20px);
-  margin-bottom: 20px;
+  flex-basis: calc(33.333% - 150px);
+}
+
+.card-name {
+  color: #000000;
+  font-family: "Playfair Display", sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  font-weight: bold;
 }
 
 .abt-section3 {
