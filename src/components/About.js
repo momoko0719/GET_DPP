@@ -1,5 +1,13 @@
+import React, { useEffect } from 'react';
+
 const About = () => {
-    return <h1>About</h1>;
-  };
-  
+
+  return (
+    <div className="aboutpage">
+      
+    </div>
+  );
+};
+
 export default About;
+
