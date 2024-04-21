@@ -306,13 +306,77 @@ iframe {
   color: #ffffff;
 }
 
-
+/*----------------about page------------------*/
 .aboutpage {
-  min-height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+  margin: 7% 5%;
 }
 
+.abt-section1 {
+  display: flex;
+  flex-direction:row;
+  align-items: flex-start;
+  gap: 20px;
+}
 
+.abt-content {
+  flex: 1;
+  margin-right: 400px;
+}
 
+.abt-icon {
+	max-width: 570px;
+	max-height: 600px;
+}
 
+.abt-title {
+  color: var(--polar-green-9, #135200);
+  font-family: "Playfair Display", sans-serif;
+  font-size: 46px;
+  line-height: 80px;
+  font-weight: 900;
+}
 
+.abt-intro {
+  color: var(--neutral-9, #135200);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+  font-weight: 400;
+  position: relative;
+  margin-top: 30px;
+}
 
+.abt-section2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  flex-basis: calc(33.333% - 20px);
+  margin-bottom: 20px;
+}
+
+.abt-section3 {
+  margin-top: 60px;
+}
+
+.org-title {
+  margin-top: 20px;
+}
+
+.org-link {
+  color: #135200;
+  text-decoration: none;
+}
+
+.org-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
