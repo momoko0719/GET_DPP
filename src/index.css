@@ -396,3 +396,34 @@ iframe {
   text-decoration: underline;
   cursor: pointer;
 }
+
+
+
+@media (max-width: 768px) {
+  .homepage {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  .laptop{
+    display: none;
+  }
+
+  .section1{
+    margin-top: 50px;
+  }
+
+  .section2-bottom{
+    flex-direction: column;
+  }
+
+  .section3-bottom {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .section3-button {
+    margin-top: 50px;
+    gap: 30px;
+  }
+}
