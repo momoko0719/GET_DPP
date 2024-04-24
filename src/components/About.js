@@ -23,27 +23,27 @@ const Home = () => {
         </div>
       </div>
       <div className="abt-section2">
-        <div className="card">
+        <div className="aboutcard">
           <img src="/imgs/axel.jpg" alt="Axel Zhao" className="card-img" />
           <div className="card-name">Axel Zhao</div>
         </div>
-        <div className="card">
+        <div className="aboutcard">
           <img src="/imgs/ella.jpg" alt="Ella Tao" className="card-img" />
           <div className="card-name">Ella Tao</div>
         </div>
-        <div className="card">
+        <div className="aboutcard">
           <img src="/imgs/frank.png" alt="Frank Martinez" className="card-img" />
           <div className="card-name">Frank Martinez</div>
         </div>
-        <div className="card">
+        <div className="aboutcard">
           <img src="/imgs/haonan.jpg" alt="Haonan Zheng" className="card-img" />
           <div className="card-name">Haonan Zheng</div>
         </div>
-        <div className="card">
+        <div className="aboutcard">
           <img src="/imgs/nora.jpg" alt="Nora Li" className="card-img" />
           <div className="card-name">Nora Li</div>
         </div>
-        <div className="card">
+        <div className="aboutcard">
           <img src="/imgs/wendy.jpg" alt="Wendy Huang" className="card-img" />
           <div className="card-name">Wendy Huang</div>
         </div>

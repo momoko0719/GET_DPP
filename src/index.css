@@ -1,3 +1,11 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+ 
  body{
   background: radial-gradient(ellipse at left, #e8fff3, transparent),
             radial-gradient(ellipse at right, #fffacb, transparent);
@@ -318,13 +326,12 @@ iframe {
 .abt-section1 {
   display: flex;
   flex-direction:row;
-  align-items: flex-start;
-  gap: 20px;
+  gap: 150px;
 }
 
 .abt-content {
   flex: 1;
-  margin-right: 400px;
+
 }
 
 .abt-icon {
@@ -358,8 +365,8 @@ iframe {
   margin-top: 20px;
 }
 
-.card {
-  flex-basis: calc(33.333% - 150px);
+.aboutcard {
+  width: 250px;
   border-radius: 15px;
 }
 
@@ -423,7 +430,58 @@ iframe {
   }
 
   .section3-button {
+    flex-direction: column;
     margin-top: 50px;
     gap: 30px;
+  }
+
+.button-box {
+  width: auto;
+}
+
+
+  .section3-content {
+    width: auto;
+  }
+
+  .chatpage {
+    min-height: auto;
+    margin-top: 15%;
+  }
+  
+  .center-div {
+    width: 100vw;
+    height: 85vh;
+  }
+  
+  iframe {
+    border: none;
+  }
+
+  .collection-sidebar {
+    margin-top: 18%;
+    margin-bottom: 30px;
+  }
+
+  .abt-icon {
+    display: none;
+  }
+
+  .aboutpage {
+    margin-top: 20%;
+  }
+
+  .aboutcard {
+    width: auto;
+    border-radius: 15px;
+  }
+
+  .abt-content {
+    flex: 1;
+    margin-right: 0px;
+  }
+
+  .abt-section1 {
+    flex: none;
   }
 }
