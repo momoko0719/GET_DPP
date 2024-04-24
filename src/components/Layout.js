@@ -9,7 +9,7 @@ const Layout = () => {
 			<nav className="nav-bar fixed-top navbar navbar-expand-sm navbar-light">
 				<div className="container-fluid">
 					<NavLink to="/" className="web-logo navbar-brand">
-						<img src="/imgs/logo.png" alt="GetDPP logo" className="logo-img" />
+						<img src="/imgs/logo.svg" alt="GetDPP logo" className="logo-img" />
 					</NavLink>
 
 					{/* Hamburger Menu Button */}
