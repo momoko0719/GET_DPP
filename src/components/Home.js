@@ -9,8 +9,6 @@ const Home = () => {
       <div className="section1">
         <div className="left1">
           <div class="project-slogon">
-            GET DPP,
-            <br />
             Your Personalized
             <br />
             Diabetes Management Companion
