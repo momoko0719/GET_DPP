@@ -27,7 +27,12 @@ const Chat = () => {
                   'closeOnEscape': false,
                   'showConversationsButton': false,
                   'enableTranscriptDownload': false,
-                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/code/3fcd3e4e-d5bc-4bf5-8699-14b621b3ada2/v31782/style.css'
+                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/a75cc7a4-8076-496e-b10f-03510ceeb5f0/v9057/style.css',
+                  'themeName': 'prism',
+                  'frontendVersion': 'v1',
+                  'showPoweredBy': true,
+                  'theme': 'prism',
+                  'themeColor': '#2563eb',
                   
               });
             window.botpressWebChat.onEvent(function () { window.botpressWebChat.sendEvent({ type: 'show' }) }, ['LIFECYCLE.LOADED']);
