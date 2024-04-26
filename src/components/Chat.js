@@ -5,6 +5,7 @@ const Chat = () => {
     <div className="chatpage">
         <div class="center-div">
           <iframe
+            title="Chat"
             srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v1/inject.js'></script>
             <script>
               window.botpressWebChat.init({
