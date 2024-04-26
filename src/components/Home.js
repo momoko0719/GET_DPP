@@ -7,9 +7,9 @@ const Home = () => {
     <div class="welcomepage">
       <div className="welcome-main">
         <div class="wc-slogon">
-          Learn More about
+          Learn more about
           <br />
-          Yourself and Diabetes.
+          Diabetes and Your Risk.
         </div>
         <div className="links-group">
           <RouterLink to="/Chat" class="button-links">

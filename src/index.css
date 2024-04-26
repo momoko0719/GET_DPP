@@ -457,12 +457,13 @@ iframe {
 .aboutcard {
   width: 250px;
   border-radius: 15px;
+  background: #ffffff;
 }
 
 .card-img {
   width: 100%;
   height: auto;
-  border-radius: 10x;
+  border-radius: 10px;
 }
 
 .card-name {
@@ -470,7 +471,8 @@ iframe {
   font-family: "Playfair Display", sans-serif;
   font-size: 18px;
   margin-top: 10px;
-  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-bottom: 30px;
   font-weight: bold;
 }
 
