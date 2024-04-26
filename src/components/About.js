@@ -141,8 +141,37 @@ const Home = () => {
 
       <div className="section3">
         <div class="section3-title">Our Solution</div>
-        <div className="section3-bottom">
-          <div className="section3-content">
+          <div className="section3-bottom">
+            <div className="section3-content">
+              <p className="solution-title">Diabetes Education Flash Cards</p>
+              <div className="solution-context">
+                <div className="solution-detail">
+                  <img
+                    class="checkIcon"
+                    src="imgs/checkIcon.png"
+                    alt="check Icon img"
+                  />
+                  <p className="solution-text">
+                    Flippable and easy-to-understand flashcards covering topics
+                    such as diabetes symptoms and signs, treatments, diet and
+                    nutrition, exercise, and fitness, aiming to enhance your
+                    understanding of diabetes management and prevention.
+                  </p>
+                </div>
+                <div className="solution-detail">
+                  <img
+                    class="checkIcon"
+                    src="imgs/checkIcon.png"
+                    alt="check Icon img"
+                  />
+                  <p className="solution-text">
+                    Increase awareness of the symptoms and risks, promoting early
+                    detection and intervention.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="section3-content">
             <p className="solution-title">
               Conversational Type 2 Risk Test Chatbot
             </p>
@@ -196,47 +225,18 @@ const Home = () => {
                 <p className="solution-text">Shareable Risk Test Report</p>
               </div>
             </div>
-          </div>
-
-          <div className="section3-content">
-            <p className="solution-title">Diabetes Education Flash Cards</p>
-            <div className="solution-context">
-              <div className="solution-detail">
-                <img
-                  class="checkIcon"
-                  src="imgs/checkIcon.png"
-                  alt="check Icon img"
-                />
-                <p className="solution-text">
-                  Flippable and easy-to-understand flashcards covering topics
-                  such as diabetes symptoms and signs, treatments, diet and
-                  nutrition, exercise, and fitness, aiming to enhance your
-                  understanding of diabetes management and prevention.
-                </p>
-              </div>
-              <div className="solution-detail">
-                <img
-                  class="checkIcon"
-                  src="imgs/checkIcon.png"
-                  alt="check Icon img"
-                />
-                <p className="solution-text">
-                  Increase awareness of the symptoms and risks, promoting early
-                  detection and intervention.
-                </p>
-              </div>
             </div>
           </div>
-        </div>
+
         <div className="section3-button">
-          <RouterLink to="/Chat" class="button-box">
+        <RouterLink to="/Learn" class="button-box">
             <div className="button-left">
               <img
                 class="button-icon"
-                src="imgs/messageIcon.png"
-                alt="message icon img"
+                src="imgs/bulbIcon.png"
+                alt="bulb icon img"
               />
-              <div class="button-text">Chat and Check</div>
+              <div class="button-text">Learn about Diabetes</div>
             </div>
             <div className="button-right">
               <img
@@ -246,15 +246,15 @@ const Home = () => {
               />
             </div>
           </RouterLink>
-
-          <RouterLink to="/Learn" class="button-box">
+          
+          <RouterLink to="/Chat" class="button-box">
             <div className="button-left">
               <img
                 class="button-icon"
-                src="imgs/bulbIcon.png"
-                alt="bulb icon img"
+                src="imgs/messageIcon.png"
+                alt="message icon img"
               />
-              <div class="button-text">Learn about Diabetes</div>
+              <div class="button-text">Chat and Check</div>
             </div>
             <div className="button-right">
               <img
@@ -277,7 +277,7 @@ const Home = () => {
             UW Latino Center for Health and Centro Cultural Mexicano, we are dedicated to addressing
             the global challenge of Type 2 diabetes. Our focus is on researching and developing effective
             education and prevention strategies, particularly for communities with limited access to healthcare.
-            Join us in our commitment to make a significant impact on public health.
+            Join us in our commitment to make a significant impact on public health!
           </p>
         </div>
         <div className="abt-icon">
@@ -286,16 +286,16 @@ const Home = () => {
       </div>
       <div className="abt-section2">
         <div className="aboutcard">
+          <img src="/imgs/frank.png" alt="Frank Martinez" className="card-img" />
+          <div className="card-name">Frank Martinez (Sponsor)</div>
+        </div>
+        <div className="aboutcard">
           <img src="/imgs/axel.jpg" alt="Axel Zhao" className="card-img" />
           <div className="card-name">Axel Zhao</div>
         </div>
         <div className="aboutcard">
           <img src="/imgs/ella.jpg" alt="Ella Tao" className="card-img" />
           <div className="card-name">Ella Tao</div>
-        </div>
-        <div className="aboutcard">
-          <img src="/imgs/frank.png" alt="Frank Martinez" className="card-img" />
-          <div className="card-name">Frank Martinez</div>
         </div>
         <div className="aboutcard">
           <img src="/imgs/haonan.jpg" alt="Haonan Zheng" className="card-img" />
@@ -313,13 +313,13 @@ const Home = () => {
       <div className="abt-section3">
         <h2 className="section3-title">Affinity Organizations</h2>
         <p className="org-title">
-          <RouterLink to="https://ischool.uw.edu/" className="org-link">Information School - University of Washington</RouterLink>
+          <a href="https://ischool.uw.edu/" className="org-link">Information School - University of Washington</a>
         </p>
         <p className="org-title">
-          <RouterLink to="/https://www.figma.com/exit?url=https%3A%2F%2Flatinocenterforhealth.org%2F" className="org-link">UW Latino Center for Health</RouterLink>
+          <a href="https://latinocenterforhealth.org/" className="org-link">UW Latino Center for Health</a>
         </p>
         <p className="org-title">
-          <RouterLink to="https://www.centroculturalmexicano.org/" className="org-link">Centro Cultural Mexicano</RouterLink>
+          <a href="https://www.centroculturalmexicano.org/" className="org-link">Centro Cultural Mexicano</a>
         </p>
       </div>
     </div>
