@@ -10,8 +10,8 @@ const Chat = () => {
             <script>
               window.botpressWebChat.init({
                   'composerPlaceholder': 'Start chat here...',
-                  'botConversationDescription': 'Chat and check your Type Ⅱ diabetes risks level',
-                  'botName': 'Dr.Ⅱ',
+                  'botConversationDescription': 'Chat and check your risks level',
+                  'botName': 'Dr. Dos',
                   'botId': '13f81d84-41f9-4224-8767-2e2efd60a9ea',
                   'hostUrl': 'https://cdn.botpress.cloud/webchat/v1',
                   'messagingUrl': 'https://messaging.botpress.cloud',
@@ -27,7 +27,7 @@ const Chat = () => {
                   'closeOnEscape': false,
                   'showConversationsButton': false,
                   'enableTranscriptDownload': false,
-                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/code/a75cc7a4-8076-496e-b10f-03510ceeb5f0/v35342/style.css',
+                  'stylesheet':'https://webchat-styler-css.botpress.app/prod/code/a75cc7a4-8076-496e-b10f-03510ceeb5f0/v13137/style.css',
                   'themeName': 'prism',
                   'frontendVersion': 'v1',
                   'showPoweredBy': true,
