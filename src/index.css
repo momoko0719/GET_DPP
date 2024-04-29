@@ -375,24 +375,35 @@ iframe {
 .cardbox {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+}
+
+.FlashcardWrapper__item--front{
+  outline: 0.5rem solid #B9C9AB;
+  border-radius: 12px;
+}
+
+.FlashcardWrapper__item--back {
+  outline: 0.5rem solid #B9C9AB;
+  border-radius: 12px;
+}
+
+.flashcontent{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
 }
 
 .FlashcardArray {
   font-size: 80px;
 }
 
-
-.collection-sidebar {
-  color: #000000;
-  margin-top: 6%;
+.tap-icon {
+  width: 250px;
+  height: 50;
 }
 
-.collection-sidebar {
-  display: flex;
-  flex-direction: column;
-  width: 180px;
-  gap: 5px;
-}
 
 .flash-nav {
   border-radius: 0px 5px 5px 0px;
@@ -415,7 +426,6 @@ iframe {
   display: flex;
   flex-direction:row;
   gap: 150px;
-  margin-top: 200px;
 }
 
 .abt-content {
@@ -545,10 +555,13 @@ iframe {
     gap: 30px;
   }
 
-.button-box {
+  .button-box {
   width: auto;
-}
+  }
 
+  .cardbox {
+    margin-top: 35%;
+  }
 
   .section3-content {
     width: auto;
@@ -568,10 +581,6 @@ iframe {
     border: none;
   }
 
-  .collection-sidebar {
-    margin-top: 18%;
-    margin-bottom: 30px;
-  }
 
   .abt-icon {
     display: none;

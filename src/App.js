@@ -5,6 +5,7 @@ import Layout from "./components/Layout";
 import Chat from "./components/Chat";
 import Learn from "./components/Learn";
 import About from "./components/About";
+import Team from "./components/Team"
 
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/chat" element={<Chat />} />
           <Route path="/learn" element={<Learn />} />
+          <Route path="/team" element={<Team />} />
         </Route>
         </Routes>
       </div>
