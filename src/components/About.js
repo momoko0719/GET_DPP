@@ -18,10 +18,10 @@ const Home = () => {
             diabetes education and prevention.
             <br />
             <br />
-            Through an simple chat, you can receive personalized risk
-            assessments and tailored suggestions for lifestyle adjustments. Our platform offers
-            bite-sized educational content to help you learn more about diabetes easily.
-            Take controlof your health journey with us.
+            Through an simple chat, you can receive <strong>personalized risk
+            assessments</strong> and tailored suggestions for lifestyle adjustments. Our platform offers 
+            bite-sized <strong>educational content</strong> to help you learn more about diabetes easily.
+            Learn more and enchance your health journey with us.
             <br />
           </div>
           <div class="learn-more-button">
@@ -140,7 +140,7 @@ const Home = () => {
       </div>
 
       <div className="section3">
-        <div class="section3-title">Our Solution</div>
+        <div class="section3-title">Our Approach</div>
           <div className="section3-bottom">
             <div className="section3-content">
               <p className="solution-title">Diabetes Education Flash Cards</p>

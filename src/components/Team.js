@@ -30,7 +30,10 @@ const Team = () => {
             alt="Frank Martinez"
             className="card-img"
           />
-          <div className="card-name">Frank Martinez (Sponsor)</div>
+          <div className="card-name">Frank Martinez
+          <br/>
+          (Our Sponsor)
+          </div>
         </div>
         <div className="aboutcard">
           <img src="/imgs/axel.jpg" alt="Axel Zhao" className="card-img" />
