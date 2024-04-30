@@ -12,14 +12,13 @@ const Home = () => {
           Diabetes and Your Risk.
         </div>
         <div className="links-group">
-          <RouterLink to="/Chat" class="button-links">
-            <img class="welcome-icon" src="imgs/message.svg" alt="message icon"/>
-            <p class="icon-text">Check Your Risk Level</p>
-          </RouterLink>
-
           <RouterLink to="/Learn" class="button-links">
             <img class="welcome-icon" src="imgs/info.svg" alt="info icon"/>
             <p class="icon-text">Learn about Diabetes</p>
+          </RouterLink>
+          <RouterLink to="/Chat" class="button-links">
+            <img class="welcome-icon" src="imgs/message.svg" alt="message icon"/>
+            <p class="icon-text">Check Your Risk Level</p>
           </RouterLink>
         </div>
       </div>

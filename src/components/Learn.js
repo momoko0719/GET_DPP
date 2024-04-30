@@ -13,11 +13,11 @@ const collectionsData =
       </div>,
       backHTML: (
         <>
-          Diabetes is a long-lasting health issue that happens when 
-          your body doesn't make enough insulin or can't use the insulin 
+          Diabetes is a long-lasting health issue that happens when your body 
+          doesn't make enough insulin or can't use the insulin 
           it produces properly.
         </>
-      ),
+      ),      
     },
     {
       id: 2,
@@ -34,12 +34,8 @@ const collectionsData =
         <>
           Blood glucose or blood sugar is the main type of sugar in your 
           blood. Your blood sugar target is like a goal range you want to 
-          hit to stay healthy. The typical targets are:
-          <br/>
-          <br/>
-          Before meals: 80 to 130 mg/dL
-          <br/>
-          Two hours after eating: Less than 180 mg/dL
+          hit to stay healthy.ypical targets are 80 to 130 mg/dL before meals
+          and below 180 mg/dL two hours after eating.
         </>
       ),
     },
@@ -48,11 +44,9 @@ const collectionsData =
       frontHTML: <>Why and how do you check your glucose level?</>,
       backHTML: (
         <>
-          Checking your glucose level helps you manage diabetes and 
-          screen for type 2 diabetes. It shows how your levels change 
-          and if you're meeting your glucose targets. You can do this 
-          with a blood sugar meter, which is easy and common for regular 
-          testing.
+          Regular glucose checks are important for living with diabetes by
+          ensuring blood sugar stays within a healthy range.
+          You can use a blood sugar meter before and after meals to track changes and maintain your target range.
         </>
       ),
     },
@@ -61,22 +55,18 @@ const collectionsData =
       frontHTML: <>What is prediabetes?</>,
       backHTML: (
         <>
-          Prediabetes is a serious health condition where blood sugar 
-          levels are higher than normal, but not yet high enough for 
-          type 2 diabetes. Prediabetes can be reversed by changing into 
-          a healthier lifestyle.
+          Prediabetes is a condition where blood sugar levels are elevated but not high enough to be classified as type 2 diabetes.
+          This condition can often be reversed through lifestyle changes such as improved diet and increased physical activity.
         </>
       ),
     },
     {
       id: 6,
-      frontHTML: <>What can be your first steps to prevent Type 2 Diabetes through weight loss?</>,
+      frontHTML: <>What are the first steps to prevent Type 2 Diabetes through weight loss?</>,
       backHTML: (
         <>
-          Making healthy changes like eating better, sleeping enough, 
-          and staying active can help you lose weight and prevent or 
-          delay type 2 diabetes while improving your overall physical 
-          and mental health.
+          To prevent or delay Type 2 Diabetes, start with weight loss through healthy eating, sufficient sleep, and regular physical activity.
+          These changes not only help manage weight but also enhance overall physical and mental health.
         </>
       ),
     },
@@ -85,10 +75,8 @@ const collectionsData =
       frontHTML: <>Why is losing weight important for individuals with diabetes and prediabetes?</>,
       backHTML: (
         <>
-          Losing weight can improve blood sugar control, reduce the risk 
-          of developing further health complications. Extra weight means 
-          fat can build up around your organs, possibly causing insulin 
-          resistance. Even just a little weight loss can make a big 
+          Losing weight improves blood sugar control and reduces the risk of complications in diabetes and prediabetes.
+          Excess fat, especially around organs, can cause insulin resistance. Even just a little weight loss can make a big 
           difference.
 
         </>
@@ -96,12 +84,11 @@ const collectionsData =
     },
     {
       id: 8,
-      frontHTML: <>How to plan what to eat or drink?</>,
+      frontHTML: <>How should you plan what to eat or drink?</>,
       backHTML: (
         <>
-          Healthy meal plans for people who have diabetes may include 
-          dairy or plant-based dairy products, fruits, non-starchy 
-          vegetables, protein foods, and whole grains. Also, try to 
+          For a healthy diabetes diet, include dairy or plant-based dairy products,
+          fruits, non-starchy vegetables, proteins, and whole grains. Also, try to 
           choose drinks with little or no added sugar.
         </>
       ),
@@ -111,11 +98,10 @@ const collectionsData =
       frontHTML: <>What is your daily calories level and why does it matter?</>,
       backHTML: (
         <>
-          Your daily calorie level is the amount of energy your body 
-          needs each day. It matters because consuming more calories 
-          than your body needs can lead to weight gain, while consuming 
-          fewer can result in weight loss. Finding the right balance 
-          supports a healthy weight and overall health.
+          Your daily calorie level is the energy your body requires each day.
+          Managing this intake is important as extra calories lead to weight gain,
+          while fewer calories can promote weight loss.
+          Balancing your caloric intake supports maintaining a healthy weight and overall well-being.
         </>
       ),
     },
@@ -137,11 +123,9 @@ const collectionsData =
       backHTML: (
         <>
           Moderate-intensity physical activity includes exercises like 
-          brisk walking, cycling, or swimming, where you're breathing 
-          harder but can still hold a conversation. To overcome obstacles 
-          to being active, try scheduling workouts into your day, finding 
-          activities you enjoy, and enlisting support from friends or 
-          family.
+          fast walking, cycling, or swimming, where you're breathing 
+          harder but can still hold a conversation. Overcome barriers to activity by
+          choosing activities you enjoy, and inviting your friends and family to work out together.
         </>
       ),
     },

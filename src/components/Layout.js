@@ -64,7 +64,7 @@ const Layout = () => {
 
 			<footer className="footer">
 				<div className="footer-logo">
-					<img src="/imgs/logo.png" alt="Logo" />
+					<img src="/imgs/logo.svg" alt="Logo" />
 				</div>
 				<div className="footer-info">
 					<span>&copy; 2024 Team Mavericks</span>
