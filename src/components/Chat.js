@@ -1,9 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const Chat = () => {
+  const [loading, setLoading] = useState(true);
+
   return (
     <div className="chatpage">
         <div class="center-div">
+          {loading && <div className="loading">Loading...</div>} 
           <iframe
             title="Chat"
             srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v1/inject.js'></script>
@@ -39,6 +42,7 @@ const Chat = () => {
             </script></body>"
             width="100%"
             height="100%"
+            onLoad={() => setLoading(false)}
           ></iframe>
         </div>
     </div>

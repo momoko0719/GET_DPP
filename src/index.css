@@ -365,6 +365,22 @@ iframe {
   border: none;
 }
 
+.loading {
+  display: flex;     
+  justify-content: center;
+  align-items: center;  
+  position: fixed;    
+  top: 0;               
+  left: 0;              
+  width: 100vw;       
+  height: 100vh;   
+  z-index: 1000; 
+  font-size: 20pt;
+  color: #135200;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
 
 .learn-page {
   min-height: 90vh;
@@ -605,6 +621,10 @@ iframe {
 
   .footer {
     margin-top: auto;
+  }
+
+  .loading {
+
   }
 
 @media (max-width: 1240px) {
