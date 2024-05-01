@@ -539,6 +539,7 @@ iframe {
 
   .links-group {
     flex-direction: column;
+    gap:30px;
   }
 
   .footer {
