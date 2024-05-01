@@ -26,7 +26,7 @@ const Home = () => {
           </div>
           <div class="learn-more-button">
             <ScrollLink
-              to="section2"
+              to="section3"
               smooth={true}
               duration={500}
               offset={-90}
