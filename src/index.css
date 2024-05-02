@@ -161,6 +161,12 @@
   margin-top: 30px;
 }
 
+.learnIcon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
 .learn-more-button {
   box-sizing: border-box;
   background: var(--polar-green-9, #135200);
@@ -244,6 +250,7 @@
 }
 
 .card-header {
+  font-size: 18px;
   background: #3f6600;
   color: #ffffff;
   display: flex;
@@ -261,15 +268,17 @@
   margin-top: 8%;
 }
 
-.section3-content {
-  width: 530px;
-}
-
-
 .section3-bottom {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: start;
+}
+
+.section3-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .section3-title {
@@ -279,7 +288,6 @@
   font-size: 40px;
   line-height: 40px;
   font-weight: 900;
-  position: relative;
   margin-bottom: 30px;
 }
 
@@ -287,19 +295,22 @@
   color: #000000;
   text-align: left;
   font-family: "Inter", sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 400;
 }
 
 .solution-detail {
   display: flex;
-  gap: 15px;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.checkIcon {
-  width: 25px;
-  height: 25px;
+.solution-text {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 200;
 }
 
 .section3-button {
@@ -521,7 +532,7 @@ iframe {
 
 
 
-@media (max-width: 992px) {
+@media (max-width: 767px) {
   .homepage {
     display: flex;
     flex-direction: column;
@@ -578,8 +589,22 @@ iframe {
     margin-top: 35%;
   }
 
+  .section3-title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+} 
+
+  .solution-detail {
+    gap: 5px;
+  }
+
+  .solution-text {
+    margin-bottom: 15px;
+  }
+
   .section3-content {
     width: auto;
+    gap: 20px;
   }
 
   .chatpage {
@@ -628,6 +653,7 @@ iframe {
 
   }
 
+
 @media (max-width: 1240px) {
     .right-img {
       display: none;
@@ -636,4 +662,12 @@ iframe {
     .left-img {
       display: none;
     }
+}
+
+@media (min-width: 992px) {
+  .section3-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
 }

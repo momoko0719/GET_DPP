@@ -78,7 +78,7 @@ const Team = () => {
               <p class="card-text">
               Did you know that 1 in 10 Americans live with type 2 diabetes? It’s not just a statistic;
               it’s about real people facing real challenges. That’s where Dr. Dos comes in. We focus on
-              type 2 diabetes because it’s largely preventable with the right lifestyle changes.
+              type 2 diabetes because it’s largely <strong>preventable</strong> with the right lifestyle changes.
               We believe everyone should have the accessible tools to manage their health, and we’re here to make
               that easier with practical tips and personalized advice.
               </p>
@@ -98,7 +98,7 @@ const Team = () => {
             </div>
             <div class="card-body">
               <p class="card-text">
-              Because minority community like Latino have higher risks of type 2 diabetes and often, fewer resources to fight it.
+              Because minority community like Latino have <strong>higher risks</strong> of type 2 diabetes and often, fewer resources to fight it.
               Our inspiration came from our sponsor, Frank Martinez, who saw firsthand how health crises like COVID-19 and diabetes
               hit harder in the Easter Washington Latino community. Dr. Dos is our way of bridging that gap with a platform that’s not only free but also accessible
               wherever you are, in both English and Spanish.
@@ -119,8 +119,8 @@ const Team = () => {
             </div>
             <div class="card-body">
               <p class="card-text">
-                Diabetes rates are higher in the Latino community due to factos like language barriers, limited healthcare access,
-                and fewer healthy living resources. At Dr. Dos, we’re not just about recognizing these barriers; we’re about breaking them down.
+                Diabetes rates are higher in the Latino community due to factos like <strong>language barriers, limited healthcare access,
+                and fewer healthy living resources</strong>. At Dr. Dos, we’re not just about recognizing these barriers; we’re about breaking them down.
                 Our app is designed to be a friendly guide in your pocket, helping you navigate diabetes prevention in ways that fit your life and culture.
               </p>
             </div>
