@@ -22,6 +22,7 @@
 
 .nav-bar .nav-item .nav-link.active {
 	color: #135200;
+  font-weight: 500;
 }
 
 .logo-img {
@@ -273,6 +274,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: start;
+  gap: 20px;
 }
 
 .section3-content {
@@ -310,13 +312,14 @@
   text-align: left;
   font-family: "Inter", sans-serif;
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 .section3-button {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: left;
+  gap: 200px;
 }
 
 .button-box {
@@ -530,6 +533,17 @@ iframe {
   cursor: pointer;
 }
 
+.section3-content-title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.solution-title {
+  margin-bottom: 0;
+}
+
 
 
 @media (max-width: 767px) {
@@ -668,6 +682,6 @@ iframe {
   .section3-bottom {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
+    grid-gap: 60px;
   }
 }

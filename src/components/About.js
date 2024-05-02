@@ -14,9 +14,11 @@ const Home = () => {
             <br />
           </div>
           <div className="project-description">
-            Dr. Dos is an AI-driven health planner dedicated to transforming diabetes education and prevention.
+            Dr. Dos is an AI-driven health planner dedicated to transforming
+            diabetes education and prevention.
             <br />
-            Unsure about what type 2 diabetes is? Curious about your risk level? We're here to guide you every step of the way.
+            Unsure about what type 2 diabetes is? Curious about your risk level?
+            We're here to guide you every step of the way.
           </div>
           <div className="learn-more-button">
             <ScrollLink
@@ -31,7 +33,11 @@ const Home = () => {
           </div>
         </div>
         <div className="right1">
-          <img className="laptop" src="imgs/home.png" alt="homepage illustration img" />
+          <img
+            className="laptop"
+            src="imgs/home.png"
+            alt="homepage illustration img"
+          />
         </div>
       </div>
 
@@ -39,89 +45,103 @@ const Home = () => {
         <div className="section3-title">How It Works</div>
         <div className="section3-bottom">
           <div className="section3-content">
-            <img class="learnIcon" src="imgs/number-1.png" alt="Learn Icon"/>
-            <p className="solution-title">Learn at Your Own Pace</p>
+            <div className="section3-content-title">
+              <img class="learnIcon" src="imgs/number-1.png" alt="Learn Icon" />
+              <p className="solution-title">Learn at Your Own Pace</p>
+            </div>
             <div className="solution-detail">
               <p className="solution-text">
-                Explore our educational flashcards to understand the basics of diabetes prevention.
-                Accessible and easy to understand, these resources prepare you for a proactive approach to your health.
+                Explore our educational flashcards to understand the basics of
+                diabetes prevention. Accessible and easy to understand, these
+                resources prepare you for a proactive approach to your health.
+              </p>
+            </div>
+          </div>
+
+          <div className="section3-content">
+            <div className="section3-content-title">
+              <img class="learnIcon" src="imgs/number-2.png" alt="Learn Icon" />
+              <p className="solution-title">Complete Your Assessment</p>
+            </div>
+            <div className="solution-detail">
+              <p className="solution-text">
+                Take a 5-minutes assessment through our chatbot at your
+                convenience —no appointments necessary. Simply answer a few
+                questions about your health to help us evaluate your diabetes
+                risk.
               </p>
             </div>
           </div>
           <div className="section3-content">
-          <img class="learnIcon" src="imgs/number-2.png" alt="Learn Icon"/>
-            <p className="solution-title">Complete Your Assessment</p>
+            <div className="section3-content-title">
+              <img class="learnIcon" src="imgs/number-3.png" alt="Learn Icon" />
+              <p className="solution-title">Receive Instant Analysis</p>
+            </div>
+
             <div className="solution-detail">
               <p className="solution-text">
-                Take a 5-minutes assessment through our chatbot at your convenience —no appointments necessary.
-                Simply answer a few questions about your health to help us evaluate your diabetes risk.
+                Our AI-driven chatbot analyzes your responses immediately,
+                identifying potential risk factors. You'll get a detailed
+                summary of your risk level and the factors contributing to it,
+                designed to be shared with your doctor.
               </p>
             </div>
           </div>
           <div className="section3-content">
-          <img class="learnIcon" src="imgs/number-3.png" alt="Learn Icon"/>
-            <p className="solution-title">Receive Instant Analysis</p>
-            <div className="solution-detail">
-              <p className="solution-text">
-                Our AI-driven chatbot analyzes your responses immediately, identifying potential risk factors. You'll get a
-                detailed summary of your risk level and the factors contributing to it, designed to be shared with your doctor.
-              </p>
+            <div className="section3-content-title">
+              <img class="learnIcon" src="imgs/number-4.png" alt="Learn Icon" />
+              <p className="solution-title">Consult Your Doctor</p>
             </div>
-          </div>
-          <div className="section3-content">
-          <img class="learnIcon" src="imgs/number-4.png" alt="Learn Icon"/>
-            <p className="solution-title">Consult Your Doctor</p>
+
             <div className="solution-detail">
               <p className="solution-text">
-                Armed with your risk assessment results, schedule a visit with your healthcare provider to discuss
-                further screening and potential treatment options. Dr. Dos acts as a bridge, making your preventive
-                care journey more informed and efficient.
+                Armed with your risk assessment results, schedule a visit with
+                your healthcare provider to discuss further screening and
+                potential treatment options. Dr. Dos acts as a bridge, making
+                your preventive care journey more informed and efficient.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-
-        
-        <div className="section3-button">
-          <RouterLink to="/Learn" className="button-box">
-            <div className="button-left">
-              <img
-                className="button-icon"
-                src="imgs/bulbIcon.png"
-                alt="bulb icon img"
-              />
-              <div className="button-text">Learn about Diabetes</div>
-            </div>
-            <div className="button-right">
-              <img
-                className="right-icon"
-                src="imgs/rightIcon.png"
-                alt="right icon img"
-              />
-            </div>
-          </RouterLink>
-          <RouterLink to="/Chat" className="button-box">
-            <div className="button-left">
-              <img
-                className="button-icon"
-                src="imgs/messageIcon.png"
-                alt="message icon img"
-              />
-              <div className="button-text">Chat and Check</div>
-            </div>
-            <div className="button-right">
-              <img
-                className="right-icon"
-                src="imgs/rightIcon.png"
-                alt="right icon img"
-              />
-            </div>
-          </RouterLink>
-        </div>
+      <div className="section3-button">
+        <RouterLink to="/Learn" className="button-box">
+          <div className="button-left">
+            <img
+              className="button-icon"
+              src="imgs/bulbIcon.png"
+              alt="bulb icon img"
+            />
+            <div className="button-text">Learn about Diabetes</div>
+          </div>
+          <div className="button-right">
+            <img
+              className="right-icon"
+              src="imgs/rightIcon.png"
+              alt="right icon img"
+            />
+          </div>
+        </RouterLink>
+        <RouterLink to="/Chat" className="button-box">
+          <div className="button-left">
+            <img
+              className="button-icon"
+              src="imgs/messageIcon.png"
+              alt="message icon img"
+            />
+            <div className="button-text">Chat and Check</div>
+          </div>
+          <div className="button-right">
+            <img
+              className="right-icon"
+              src="imgs/rightIcon.png"
+              alt="right icon img"
+            />
+          </div>
+        </RouterLink>
       </div>
-
+    </div>
   );
 };
 
