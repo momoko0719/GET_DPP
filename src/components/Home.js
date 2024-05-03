@@ -1,15 +1,18 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <div class="welcomepage">
       <div className="welcome-main">
         <div class="wc-slogon">
-          Learn more about
+          {t('welcome1')}
           <br />
-          Diabetes and Your Risk.
+          {t('welcome2')}
         </div>
         <div className="links-group">
           <RouterLink to="/Learn" class="button-links">

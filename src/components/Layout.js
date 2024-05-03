@@ -1,9 +1,16 @@
 import React from "react";
 import { Outlet, NavLink } from "react-router-dom";
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 
 const Layout = () => {
+	const { i18n } = useTranslation();
+
+    const changeLanguage = (language) => {
+        i18n.changeLanguage(language);
+    };
+
     return(
         <div>
 			<nav className="nav-bar fixed-top navbar navbar-expand-sm navbar-light">
@@ -11,6 +18,11 @@ const Layout = () => {
 					<NavLink to="/" className="web-logo navbar-brand">
 						<img src="/imgs/logo.svg" alt="GetDPP logo" className="logo-img" />
 					</NavLink>
+
+					<div className="language-switcher ml">
+                        <button onClick={() => changeLanguage('en')} className="btn">EN</button>
+                        <button onClick={() => changeLanguage('es')} className="btn">ES</button>
+                    </div>
 
 					{/* Hamburger Menu Button */}
 					<button
