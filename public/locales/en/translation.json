@@ -1,4 +1,27 @@
 {
     "welcome1": "Learn more about",
-    "welcome2": "Diabetes and Your Risk."
+    "welcome2": "Diabetes and Your Risk.",
+
+    "flashcard1front": "What is diabetes?",
+    "flashcard1back": "Diabetes is a long-lasting health issue that happens when your body doesn't make enough insulin or can't use the insulin it produces properly.",
+    "flashcard2front": "What is insulin?",
+    "flashcard2back": "Insulin is a hormone, like a key that unlocks cells, allowing them to absorb sugar (glucose) from the blood, which helps regulate blood sugar levels.",
+    "flashcard3front": "What is blood glucose and what is the blood glucose target?",
+    "flashcard3back": "Blood glucose or blood sugar is the main type of sugar in your blood. Your blood sugar target is like a goal range you want to hit to stay healthy. Typical targets are 80 to 130 mg/dL before meals and below 180 mg/dL two hours after eating.",
+    "flashcard4front": "Why and how do you check your glucose level?",
+    "flashcard4back": "Regular glucose checks are important for living with diabetes by ensuring blood sugar stays within a healthy range. You can use a blood sugar meter before and after meals to track changes and maintain your target range.",
+    "flashcard5front": "What is prediabetes?",
+    "flashcard5back": "Prediabetes is a condition where blood sugar levels are elevated but not high enough to be classified as type 2 diabetes. This condition can often be reversed through lifestyle changes such as improved diet and increased physical activity.",
+    "flashcard6front": "What are the first steps to prevent Type 2 Diabetes through weight loss?",
+    "flashcard6back": "To prevent or delay Type 2 Diabetes, start with weight loss through healthy eating, sufficient sleep, and regular physical activity. These changes not only help manage weight but also enhance overall physical and mental health.",
+    "flashcard7front": "Why is losing weight important for individuals with diabetes and prediabetes?",
+    "flashcard7back": "Losing weight improves blood sugar control and reduces the risk of complications in diabetes and prediabetes. Excess fat, especially around organs, can cause insulin resistance. Even just a little weight loss can make a big difference.",
+    "flashcard8front": "How should you plan what to eat or drink?",
+    "flashcard8back": "For a healthy diabetes diet, include dairy or plant-based dairy products, fruits, non-starchy vegetables, proteins, and whole grains. Also, try to choose drinks with little or no added sugar.",
+    "flashcard9front": "What is your daily calories level and why does it matter?",
+    "flashcard9back": "Your daily calorie level is the energy your body requires each day. Managing this intake is important as extra calories lead to weight gain, while fewer calories can promote weight loss. Balancing your caloric intake supports maintaining a healthy weight and overall well-being.",
+    "flashcard10front": "How To Benefit From Physical Activity",
+    "flashcard10back": "To benefit from physical activity, aim for at least 150 minutes of moderate-intensity exercise per week, ideally spread out with 20 to 25 minutes each day; incorporating exercises targeting all major muscle groups on 2 or more days weekly.",
+    "flashcard11front": "What is moderate-intensity physical activity and how can you overcome obstacles to being active?",
+    "flashcard11back": "Moderate-intensity physical activity includes exercises like fast walking, cycling, or swimming, where you're breathing harder but can still hold a conversation. Overcome barriers to activity by choosing activities you enjoy, and inviting your friends and family to work out together."
 }

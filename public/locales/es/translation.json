@@ -1,4 +1,27 @@
 {
-    "welcome1": "Aprender más acerca",
-    "welcome2": "de Diabetes y su riesgo."
+  "welcome1": "Aprender más acerca",
+  "welcome2": "de Diabetes y su riesgo.",
+
+  "flashcard1front": "¿Qué es la diabetes?",
+  "flashcard1back": "La diabetes es un problema de salud de larga duración que ocurre cuando tu cuerpo no produce suficiente insulina o no puede utilizar adecuadamente la insulina que produce.",
+  "flashcard2front": "¿Qué es la insulina?",
+  "flashcard2back": "La insulina es una hormona, como una llave que abre las células, permitiéndoles absorber azúcar (glucosa) de la sangre, lo que ayuda a regular los niveles de azúcar en la sangre.",
+  "flashcard3front": "¿Qué es la glucosa en sangre y cuál es el objetivo de la glucosa en sangre?",
+  "flashcard3back": "La glucosa en sangre o azúcar en sangre es el principal tipo de azúcar en tu sangre. Tu objetivo de azúcar en sangre es como un rango meta que deseas alcanzar para mantenerte saludable. Los objetivos típicos son de 80 a 130 mg/dL antes de las comidas y por debajo de 180 mg/dL dos horas después de comer.",
+  "flashcard4front": "¿Por qué y cómo debes verificar tu nivel de glucosa?",
+  "flashcard4back": "Es importante realizar chequeos regulares de glucosa para vivir con diabetes, asegurando que el azúcar en sangre permanezca dentro de un rango saludable. Puedes usar un medidor de glucosa antes y después de las comidas para rastrear los cambios y mantener tu rango objetivo.",
+  "flashcard5front": "¿Qué es la prediabetes?",
+  "flashcard5back": "La prediabetes es una condición donde los niveles de azúcar en la sangre están elevados, pero no lo suficientemente altos como para ser clasificados como diabetes tipo 2. Esta condición a menudo puede revertirse mediante cambios en el estilo de vida, como mejorar la dieta y aumentar la actividad física.",
+  "flashcard6front": "¿Cuáles son los primeros pasos para prevenir la diabetes tipo 2 mediante la pérdida de peso?",
+  "flashcard6back": "Para prevenir o retrasar la diabetes tipo 2, comienza con la pérdida de peso a través de una alimentación saludable, un sueño suficiente y actividad física regular. Estos cambios no solo ayudan a manejar el peso, sino que también mejoran la salud física y mental en general.",
+  "flashcard7front": "¿Por qué es importante perder peso para las personas con diabetes y prediabetes?",
+  "flashcard7back": "Perder peso mejora el control del azúcar en la sangre y reduce el riesgo de complicaciones en la diabetes y prediabetes. El exceso de grasa, especialmente alrededor de los órganos, puede causar resistencia a la insulina. Incluso una pequeña pérdida de peso puede marcar una gran diferencia.",
+  "flashcard8front": "¿Cómo deberías planificar qué comer o beber?",
+  "flashcard8back": "Para una dieta saludable para la diabetes, incluye productos lácteos o alternativas vegetales a los lácteos, frutas, verduras no almidonadas, proteínas y granos enteros. Además, intenta elegir bebidas con poco o sin azúcar añadido.",
+  "flashcard9front": "¿Cuál es tu nivel diario de calorías y por qué es importante?",
+  "flashcard9back": "Tu nivel diario de calorías es la energía que tu cuerpo requiere cada día. Administrar esta ingesta es importante ya que las calorías adicionales conducen al aumento de peso, mientras que menos calorías pueden promover la pérdida de peso. Equilibrar tu ingesta calórica apoya el mantenimiento de un peso saludable y el bienestar general.",
+  "flashcard10front": "¿Cómo beneficiarse de la actividad física?",
+  "flashcard10back": "Para beneficiarte de la actividad física, procura realizar al menos 150 minutos de ejercicio de intensidad moderada por semana, idealmente distribuidos en 20 a 25 minutos cada día; incorporando ejercicios que apunten a todos los principales grupos musculares en 2 o más días a la semana.",
+  "flashcard11front": "¿Qué es la actividad física de intensidad moderada y cómo puedes superar los obstáculos para ser activo?",
+  "flashcard11back": "La actividad física de intensidad moderada incluye ejercicios como caminar rápido, andar en bicicleta o nadar, donde respiras más fuerte pero aún puedes mantener una conversación. Supera las barreras para la actividad eligiendo actividades que disfrutes e invitando a tus amigos y familiares a hacer ejercicio juntos."
 }
