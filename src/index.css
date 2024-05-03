@@ -25,6 +25,13 @@
   font-weight: 500;
 }
 
+
+.language-switcher {
+  display: flex;
+  flex-direction: row;
+}
+
+
 .logo-img {
 	width: 90px;
 	height: 40px;
@@ -41,7 +48,7 @@
 
 .welcomepage {
   justify-content: space-between;
-  min-height: 85vh;
+  min-height: 60vh;
   margin: 7% 5%;
 }
 

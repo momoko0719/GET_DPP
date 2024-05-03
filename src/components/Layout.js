@@ -19,7 +19,7 @@ const Layout = () => {
 						<img src="/imgs/logo.svg" alt="GetDPP logo" className="logo-img" />
 					</NavLink>
 
-					<div className="language-switcher ml">
+					<div className="language-switcher">
                         <button onClick={() => changeLanguage('en')} className="btn">EN</button>
                         <button onClick={() => changeLanguage('es')} className="btn">ES</button>
                     </div>
