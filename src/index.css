@@ -591,6 +591,8 @@ iframe {
 }
 
 
+
+
 @media (max-width: 767px) {
   .homepage {
     display: flex;
@@ -646,6 +648,10 @@ iframe {
 
   .cardbox {
     margin-top: 35%;
+  }
+
+  .FlashcardArrayWrapper__CardHolder {
+    height: 400px !important;
   }
 
   .section3-title {
@@ -708,9 +714,6 @@ iframe {
     margin-top: auto;
   }
 
-  .FlashcardWrapper__item--back .FlashcardWrapper__item--content {
-      font-size: 17px !important;
-  }
 
 
 @media (max-width: 1240px) {
