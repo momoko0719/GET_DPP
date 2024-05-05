@@ -39,7 +39,7 @@ const Team = () => {
         <div className="aboutcard">
           <img src="/imgs/haonan.jpg" alt={t('haonanZheng')} className="card-img" />
           <div className="card-name">Haonan Zheng
-            <a href="">
+            <a href="https://www.linkedin.com/in/haonan-zheng-3b3113230/">
               <img src="/imgs/linkedin.png" alt="LinkedIn Icon" className="linkedin-icon" />
             </a>
           </div>
