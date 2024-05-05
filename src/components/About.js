@@ -1,24 +1,25 @@
 import React from "react";
 import { Link as ScrollLink } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
+import { useTranslation } from 'react-i18next'; 
 
 const Home = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="aboutpage">
       <div className="section1">
         <div className="left1">
           <div className="project-slogon">
-            Your Personalized
+          {t('GuideTitle1')}
             <br />
-            Diabetes Management Companion
+            {t('GuideTitle2')}
             <br />
           </div>
           <div className="project-description">
-            Dr. Dos is an AI-driven health planner dedicated to transforming
-            diabetes education and prevention.
+            {t('GuideIntro1')}
             <br />
-            Unsure about what type 2 diabetes is? Curious about your risk level?
-            We're here to guide you every step of the way.
+            {t('GuideIntro2')}
           </div>
           <div className="learn-more-button">
             <ScrollLink
@@ -28,7 +29,7 @@ const Home = () => {
               offset={-90}
               className="learn-more-text"
             >
-              Learn More
+              {t('Learnmore')}
             </ScrollLink>
           </div>
         </div>
@@ -42,18 +43,16 @@ const Home = () => {
       </div>
 
       <div className="section3">
-        <div className="section3-title">How It Works</div>
+        <div className="section3-title">{t('Howitworks')}</div>
         <div className="section3-bottom">
           <div className="section3-content">
             <div className="section3-content-title">
               <img class="learnIcon" src="imgs/number-1.png" alt="Learn Icon" />
-              <p className="solution-title">Learn at Your Own Pace</p>
+              <p className="solution-title">{t('Step1Title')}</p>
             </div>
             <div className="solution-detail">
               <p className="solution-text">
-                Explore our educational flashcards to understand the basics of
-                diabetes prevention. Accessible and easy to understand, these
-                resources prepare you for a proactive approach to your health.
+                {t('Step1')}
               </p>
             </div>
           </div>
@@ -61,44 +60,35 @@ const Home = () => {
           <div className="section3-content">
             <div className="section3-content-title">
               <img class="learnIcon" src="imgs/number-2.png" alt="Learn Icon" />
-              <p className="solution-title">Complete Your Assessment</p>
+              <p className="solution-title">{t('Step2Title')}</p>
             </div>
             <div className="solution-detail">
               <p className="solution-text">
-                Take a 5-minutes assessment through our chatbot at your
-                convenience —no appointments necessary. Simply answer a few
-                questions about your health to help us evaluate your diabetes
-                risk.
+                {t('Step2')}
               </p>
             </div>
           </div>
           <div className="section3-content">
             <div className="section3-content-title">
               <img class="learnIcon" src="imgs/number-3.png" alt="Learn Icon" />
-              <p className="solution-title">Receive Instant Analysis</p>
+              <p className="solution-title">{t('Step3Title')}</p>
             </div>
 
             <div className="solution-detail">
               <p className="solution-text">
-                Our AI-driven chatbot analyzes your responses immediately,
-                identifying potential risk factors. You'll get a detailed
-                summary of your risk level and the factors contributing to it,
-                designed to be shared with your doctor.
+               {t('Step3')}
               </p>
             </div>
           </div>
           <div className="section3-content">
             <div className="section3-content-title">
               <img class="learnIcon" src="imgs/number-4.png" alt="Learn Icon" />
-              <p className="solution-title">Consult Your Doctor</p>
+              <p className="solution-title">{t('Step4Title')}</p>
             </div>
 
             <div className="solution-detail">
               <p className="solution-text">
-                Armed with your risk assessment results, schedule a visit with
-                your healthcare provider to discuss further screening and
-                potential treatment options. Dr. Dos acts as a bridge, making
-                your preventive care journey more informed and efficient.
+               {t('Step4')}
               </p>
             </div>
           </div>
@@ -113,7 +103,7 @@ const Home = () => {
               src="imgs/bulbIcon.png"
               alt="bulb icon img"
             />
-            <div className="button-text">Learn about Diabetes</div>
+            <div className="button-text">{t('box1')}</div>
           </div>
           <div className="button-right">
             <img
@@ -130,7 +120,7 @@ const Home = () => {
               src="imgs/messageIcon.png"
               alt="message icon img"
             />
-            <div className="button-text">Chat and Check</div>
+            <div className="button-text">{t('box2')}</div>
           </div>
           <div className="button-right">
             <img

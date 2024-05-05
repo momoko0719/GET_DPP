@@ -1,150 +1,120 @@
 import React from "react";
+import { useTranslation } from 'react-i18next';
 
 const Team = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="aboutpage">
       <div className="abt-section1">
         <div className="abt-content">
-          <h1 className="abt-title">Meet the people behind Dr. II</h1>
-          <p className="abt-intro">
-            We are a diverse group of five undergraduate students from the
-            University of Washington Information School, specializing in various
-            fields and hailing from unique backgrounds. Under the guidance of
-            Frank Martinez and Dr. Leo Morales, and in collaboration with the UW
-            Latino Center for Health and Centro Cultural Mexicano, we are
-            dedicated to addressing the global challenge of Type 2 diabetes. Our
-            focus is on researching and developing effective education and
-            prevention strategies, particularly for communities with limited
-            access to healthcare. Join us in our commitment to make a
-            significant impact on public health!
-          </p>
+          <h1 className="abt-title">{t('aboutTitle')}</h1>
+          <p className="abt-intro">{t('aboutIntro')}</p>
         </div>
         <div className="abt-icon">
-          <img className="teamicon" src="imgs/teamicon.png" alt="Team Icon" />
+          <img className="teamicon" src="imgs/teamicon.png" alt={t('teamIconAlt')} />
         </div>
       </div>
       <div className="abt-section2">
         <div className="aboutcard">
-          <img
-            src="/imgs/frank.png"
-            alt="Frank Martinez"
-            className="card-img"
-          />
-          <div className="card-name">Frank Martinez (Sponsor)
+          <img src="/imgs/frank.png" alt="Photo of Frank" className="card-img" />
+          <div className="card-name">Frank Martinez (Sponsor)</div>
+        </div>
+        <div className="aboutcard">
+          <img src="/imgs/axel.jpg" alt="Photo of Axel" className="card-img" />
+          <div className="card-name">Axel Zhao
+            <a href="https://www.linkedin.com/in/hesong-zhao-41b460268/">
+              <img src="/imgs/linkedin.png" alt="LinkedIn Icon" className="linkedin-icon" />
+            </a>
           </div>
         </div>
         <div className="aboutcard">
-          <img src="/imgs/axel.jpg" alt="Axel Zhao" className="card-img" />
-          <div className="card-name">Axel Zhao</div>
+          <img src="/imgs/ella.jpg" alt="Photo of Ella" className="card-img" />
+          <div className="card-name">Ella Tao
+            <a href="https://www.linkedin.com/in/yifei-tao-ella/">
+              <img src="/imgs/linkedin.png" alt="LinkedIn Icon" className="linkedin-icon" />
+            </a>
+          </div>
         </div>
         <div className="aboutcard">
-          <img src="/imgs/ella.jpg" alt="Ella Tao" className="card-img" />
-          <div className="card-name">Ella Tao</div>
+          <img src="/imgs/haonan.jpg" alt={t('haonanZheng')} className="card-img" />
+          <div className="card-name">Haonan Zheng
+            <a href="">
+              <img src="/imgs/linkedin.png" alt="LinkedIn Icon" className="linkedin-icon" />
+            </a>
+          </div>
         </div>
         <div className="aboutcard">
-          <img src="/imgs/haonan.jpg" alt="Haonan Zheng" className="card-img" />
-          <div className="card-name">Haonan Zheng</div>
+          <img src="/imgs/nora.jpg" alt="Photo of Nora" className="card-img" />
+          <div className="card-name">Nora Li
+            <a href="https://www.linkedin.com/in/xiaofu-li-9a0a1b230/">
+              <img src="/imgs/linkedin.png" alt="LinkedIn Icon" className="linkedin-icon" />
+            </a>
+          </div>
         </div>
         <div className="aboutcard">
-          <img src="/imgs/nora.jpg" alt="Nora Li" className="card-img" />
-          <div className="card-name">Nora Li</div>
-        </div>
-        <div className="aboutcard">
-          <img src="/imgs/wendy.jpg" alt="Wendy Huang" className="card-img" />
-          <div className="card-name">Wendy Huang</div>
+          <img src="/imgs/wendy.jpg" alt="Photo of Wendy" className="card-img" />
+          <div className="card-name">
+            Wendy Huang
+            <a href="https://www.linkedin.com/in/shiwen-wendy-huang/">
+              <img src="/imgs/linkedin.png" alt="LinkedIn Icon" className="linkedin-icon" />
+            </a>
+          </div>
+
         </div>
       </div>
       <div className="section2" id="section2">
-        <div class="section2-top">
-          <div class="section2-title">
-            Discovering Our Drive:
-            <br />
-            Understanding Type 2 Diabetes in the Latino Community
-            <br />
-          </div>
-          <div class="section2-quote">
-            “Maybe add a quotation from Dr.morales here — Dr. Morales”
-          </div>
+        <div className="section2-top">
+          <div className="section2-title">{t('motivationIntro')}</div>
+          <div className="section2-quote">{t('quote')}</div>
         </div>
         <div className="section2-bottom">
-          <div class="card mb-5">
-            <div class="card-header">
-              <p>
-                Why Is Type 2 Diabetes Our Focus?
-              </p>
-              <img class="cardicon" src="imgs/faqIcon.png" alt="faq icon img" />
+          <div className="card mb-5">
+            <div className="card-header">
+              <p>{t('question1')}</p>
+              <img className="cardicon" src="imgs/faqIcon.png" alt={t('faqIconAlt')} />
             </div>
-            <div class="card-body">
-              <p class="card-text">
-              Did you know that 1 in 10 Americans live with type 2 diabetes? It’s not just a statistic;
-              it’s about real people facing real challenges. That’s where Dr. Dos comes in. We focus on
-              type 2 diabetes because it’s largely <strong>preventable</strong> with the right lifestyle changes.
-              We believe everyone should have the accessible tools to manage their health, and we’re here to make
-              that easier with practical tips and personalized advice.
-              </p>
+            <div className="card-body">
+              <p className="card-text">{t('answer1')}</p>
             </div>
           </div>
 
-          <div class="card mb-5">
-            <div class="card-header">
-              <p>
-                Why Do We Prioritize the Latino Community?
-              </p>
-              <img
-                class="cardicon"
-                src="imgs/chartIcon.png"
-                alt="chart icon img"
-              />
+          <div className="card mb-5">
+            <div className="card-header">
+              <p>{t('question2')}</p>
+              <img className="cardicon" src="imgs/chartIcon.png" alt={t('chartIconAlt')} />
             </div>
-            <div class="card-body">
-              <p class="card-text">
-              Because minority community like Latino have <strong>higher risks</strong> of type 2 diabetes and often, fewer resources to fight it.
-              Our inspiration came from our sponsor, Frank Martinez, who saw firsthand how health crises like COVID-19 and diabetes
-              hit harder in the Easter Washington Latino community. Dr. Dos is our way of bridging that gap with a platform that’s not only free but also accessible
-              wherever you are, in both English and Spanish.
-              </p>
+            <div className="card-body">
+              <p className="card-text">{t('answer2')}</p>
             </div>
           </div>
 
-          <div class="card mb-5">
-            <div class="card-header">
-              <p>
-                Why Are Diabetes Rates Higher in the Latino Community?
-              </p>
-              <img
-                class="cardicon"
-                src="imgs/fireIcon.png"
-                alt="fire icon img"
-              />
+          <div className="card mb-5">
+            <div className="card-header">
+              <p>{t('question3')}</p>
+              <img className="cardicon" src="imgs/fireIcon.png" alt={t('fireIconAlt')} />
             </div>
-            <div class="card-body">
-              <p class="card-text">
-                Diabetes rates are higher in the Latino community due to factos like <strong>language barriers, limited healthcare access,
-                and fewer healthy living resources</strong>. At Dr. Dos, we’re not just about recognizing these barriers; we’re about breaking them down.
-                Our app is designed to be a friendly guide in your pocket, helping you navigate diabetes prevention in ways that fit your life and culture.
-              </p>
+            <div className="card-body">
+              <p className="card-text">{t('answer3')}</p>
             </div>
           </div>
         </div>
       </div>
       <div className="abt-section3">
-        <h2 className="section3-title">Affinity Organizations</h2>
+        <h2 className="section3-title">{t('organization')}</h2>
         <p className="org-title">
           <a href="https://ischool.uw.edu/" className="org-link">
-            Information School - University of Washington
+            {t('org1')}
           </a>
         </p>
         <p className="org-title">
           <a href="https://latinocenterforhealth.org/" className="org-link">
-            UW Latino Center for Health
+            {t('org2')}
           </a>
         </p>
         <p className="org-title">
-          <a
-            href="https://www.centroculturalmexicano.org/"
-            className="org-link"
-          >
-            Centro Cultural Mexicano
+          <a href="https://www.centroculturalmexicano.org/" className="org-link">
+            {t('org3')}
           </a>
         </p>
       </div>
@@ -153,3 +123,4 @@ const Team = () => {
 };
 
 export default Team;
+
