@@ -17,11 +17,11 @@ const Home = () => {
         <div className="links-group">
           <RouterLink to="/Learn" class="button-links">
             <img class="welcome-icon" src="imgs/info.svg" alt="info icon"/>
-            <p class="icon-text">Learn about Diabetes</p>
+            <p class="icon-text">{t('homeleftButton')}</p>
           </RouterLink>
           <RouterLink to="/Chat" class="button-links">
             <img class="welcome-icon" src="imgs/message.svg" alt="message icon"/>
-            <p class="icon-text">Check Your Risk Level</p>
+            <p class="icon-text">{t('homerightButton')}</p>
           </RouterLink>
         </div>
       </div>

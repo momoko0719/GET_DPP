@@ -10,6 +10,7 @@ const Layout = () => {
     const changeLanguage = (language) => {
         i18n.changeLanguage(language);
     };
+	const { t } = useTranslation();
 
     return(
         <div>
@@ -42,27 +43,27 @@ const Layout = () => {
 						<ul className="navbar-nav ml-auto">
 							<li className="nav-item">
 								<NavLink to="/" className="nav-link">
-									Home
+									{t('home')}
 								</NavLink>
 							</li>
 							<li className="nav-item">
 								<NavLink to="/Learn" className="nav-link">
-									Learn
+									{t('learn')}
 								</NavLink>
 							</li>
 							<li className="nav-item">
 								<NavLink to="/Chat" className="nav-link">
-									Chat
+									{t('chat')}
 								</NavLink>
 							</li>
 							<li className="nav-item">
 								<NavLink to="/About" className="nav-link">
-									Guide
+									{t('guide')}
 								</NavLink>
 							</li>
 							<li className="nav-item">
 								<NavLink to="/Team" className="nav-link">
-									About
+									{t('about')}
 								</NavLink>
 							</li>
 						</ul>

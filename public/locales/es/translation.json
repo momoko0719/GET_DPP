@@ -1,6 +1,16 @@
 {
+  "home" : "Inicio",
+  "learn" : "Aprender",
+  "chat" : "Chat",
+  "guide" : "Guía",
+  "about" : "Acerca de",
+
   "welcome1": "Aprender más acerca",
   "welcome2": "de Diabetes y su riesgo.",
+  "homeleftButton": "Aprenda sobre la diabetes",
+  "homerightButton": "Verifique su nivel de riesgo",
+
+  "tapView": "Haz clic en la tarjeta para ver la respuesta",
 
   "flashcard1front": "¿Qué es la diabetes?",
   "flashcard1back": "La diabetes es un problema de salud de larga duración que ocurre cuando tu cuerpo no produce suficiente insulina o no puede utilizar adecuadamente la insulina que produce.",
@@ -53,6 +63,8 @@
   "Step4Title": "Consulta a tu Médico",
   "Step4": "Con tu informe de riesgo detallado en mano, programa una visita con tu proveedor de atención médica para discutir más pruebas de detección y opciones de tratamiento. Dr. Dos actúa como un puente, haciendo que tu viaje de cuidado preventivo sea más informado y eficiente.",
   "box1": "Aprende sobre la Diabetes",
-  "box2": "Chatea y Verifica"
+  "box2": "Chatea y Verifica",
+
+  "load": "Cargando..."
   
 }

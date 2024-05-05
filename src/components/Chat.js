@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const Chat = () => {
   const [loading, setLoading] = useState(true);
+  const { t } = useTranslation();
 
   return (
     <div className="chatpage">
         <div class="center-div">
-          {loading && <div className="loading">Loading...</div>} 
+          {loading && <div className="loading">{t('load')}</div>} 
           <iframe
             title="Chat"
             srcdoc="<body><script src='https://cdn.botpress.cloud/webchat/v1/inject.js'></script>

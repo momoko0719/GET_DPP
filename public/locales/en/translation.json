@@ -1,6 +1,16 @@
 {
+    "home" : "Home",
+    "learn" : "Learn",
+    "chat" : "Chat",
+    "guide" : "Guide",
+    "about" : "About",
+
     "welcome1": "Learn more about",
     "welcome2": "Diabetes and Your Risk.",
+    "homeleftButton": "Learn about Diabetes",
+    "homerightButton": "Check Your Risk Level",
+
+    "tapView": "Click the card to view the answer",
 
     "flashcard1front": "What is diabetes?",
     "flashcard1back": "Diabetes is a long-lasting health issue that happens when your body doesn't make enough insulin or can't use the insulin it produces properly.",
@@ -53,5 +63,7 @@
     "Step4Title": "Consult Your Doctor",
     "Step4": "With your detailed risk report in hand, schedule a visit with your healthcare provider to discuss further screening and potential treatment options. Dr. Dos acts as a bridge, making your preventive care journey more informed and efficient.",
     "box1": "Learn about Diabetes",
-    "box2": "Chat and Check"
+    "box2": "Chat and Check",
+
+    "load": "Loading..."
 }

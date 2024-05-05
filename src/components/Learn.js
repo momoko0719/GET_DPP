@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FlashcardArray } from "react-quizlet-flashcard";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 const useCollectionsData = () => {
   const { t } = useTranslation();
@@ -10,62 +10,74 @@ const useCollectionsData = () => {
       id: 1,
       frontHTML: (
         <div className="flashcontent">
-          {t('flashcard1front')}
-          <img class="tap-icon" src="imgs/tap.svg" alt="tap icon"/>
+          <div>
+            {t("flashcard1front")}
+          </div>
+    
+          <div className="tapbox">
+            <div className="group">
+              <div className="overlap-group">
+                <img className="tap" alt="Tap" src="imgs/tap.svg" />
+                <p className="text-wrapper">
+                  {t("tapView")}
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       ),
-      backHTML: (<>{t('flashcard1back')}</>)
+      backHTML: <>{t("flashcard1back")}</>,
     },
     {
       id: 2,
-      frontHTML: <>{t('flashcard2front')}</>,
-      backHTML: <>{t('flashcard2back')}</>
+      frontHTML: <>{t("flashcard2front")}</>,
+      backHTML: <>{t("flashcard2back")}</>,
     },
     {
       id: 3,
-      frontHTML: <>{t('flashcard3front')}</>,
-      backHTML: <>{t('flashcard3back')}</>
+      frontHTML: <>{t("flashcard3front")}</>,
+      backHTML: <>{t("flashcard3back")}</>,
     },
     {
       id: 4,
-      frontHTML: <>{t('flashcard4front')}</>,
-      backHTML: <>{t('flashcard4back')}</>
+      frontHTML: <>{t("flashcard4front")}</>,
+      backHTML: <>{t("flashcard4back")}</>,
     },
     {
       id: 5,
-      frontHTML: <>{t('flashcard5front')}</>,
-      backHTML: <>{t('flashcard5back')}</>
+      frontHTML: <>{t("flashcard5front")}</>,
+      backHTML: <>{t("flashcard5back")}</>,
     },
     {
       id: 6,
-      frontHTML: <>{t('flashcard6front')}</>,
-      backHTML: <>{t('flashcard6back')}</>
+      frontHTML: <>{t("flashcard6front")}</>,
+      backHTML: <>{t("flashcard6back")}</>,
     },
     {
       id: 7,
-      frontHTML: <>{t('flashcard7front')}</>,
-      backHTML: <>{t('flashcard7back')}</>
+      frontHTML: <>{t("flashcard7front")}</>,
+      backHTML: <>{t("flashcard7back")}</>,
     },
     {
       id: 8,
-      frontHTML: <>{t('flashcard8front')}</>,
-      backHTML: <>{t('flashcard8back')}</>
+      frontHTML: <>{t("flashcard8front")}</>,
+      backHTML: <>{t("flashcard8back")}</>,
     },
     {
       id: 9,
-      frontHTML: <>{t('flashcard9front')}</>,
-      backHTML: <>{t('flashcard9back')}</>
+      frontHTML: <>{t("flashcard9front")}</>,
+      backHTML: <>{t("flashcard9back")}</>,
     },
     {
       id: 10,
-      frontHTML: <>{t('flashcard10front')}</>,
-      backHTML: <>{t('flashcard10back')}</>
+      frontHTML: <>{t("flashcard10front")}</>,
+      backHTML: <>{t("flashcard10back")}</>,
     },
     {
       id: 11,
-      frontHTML: <>{t('flashcard11front')}</>,
-      backHTML: <>{t('flashcard11back')}</>
-    }
+      frontHTML: <>{t("flashcard11front")}</>,
+      backHTML: <>{t("flashcard11back")}</>,
+    },
   ];
 };
 
