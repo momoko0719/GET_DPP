@@ -709,7 +709,7 @@ iframe {
   }
 
   .FlashcardWrapper__item--content {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
 
