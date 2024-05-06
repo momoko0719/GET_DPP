@@ -730,9 +730,13 @@ iframe {
   }
 }
 
-  .footer {
-    margin-top: auto;
-  }
+.footer {
+  margin-top: auto;
+}
+
+.welcome-main {
+  gap: 50px;
+}
 
 
 
