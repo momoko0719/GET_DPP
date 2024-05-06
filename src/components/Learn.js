@@ -108,6 +108,8 @@ const Learn = () => {
             alignItems: "center",
             paddingLeft: 50,
             paddingRight: 50,
+            paddingTop: 15,
+            paddingBottom:15,
             color: "black",
           }}
         />

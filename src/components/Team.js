@@ -70,7 +70,7 @@ const Team = () => {
       <div className="section2" id="section2">
         <div className="section2-top">
           <div className="section2-title">{t('motivationIntro')}</div>
-          <div className="section2-quote">{t('quote')}</div>
+          { /*<div className="section2-quote">{t('quote')}</div>*/}
         </div>
         <div className="section2-bottom">
           <div className="card mb-5">

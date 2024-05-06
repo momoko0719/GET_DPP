@@ -597,6 +597,8 @@ iframe {
 }
 
 
+
+
 @media (max-width: 767px) {
   .homepage {
     display: flex;
@@ -647,11 +649,24 @@ iframe {
   }
 
   .button-box {
-    width: 450px;
+    width: 350px;
+  }
+
+  .button-text {
+    font-size: 19px;
+  }
+
+  .button-icon {
+    width: 50px;
+    height: 50px;
   }
 
   .cardbox {
     margin-top: 35%;
+  }
+
+  .FlashcardArrayWrapper__CardHolder {
+    height: 420px !important;
   }
 
   .section3-title {
@@ -714,9 +729,6 @@ iframe {
     margin-top: auto;
   }
 
-  .loading {
-
-  }
 
 
 @media (max-width: 1240px) {
