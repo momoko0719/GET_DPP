@@ -47,6 +47,11 @@ const Layout = () => {
 								</NavLink>
 							</li>
 							<li className="nav-item">
+								<NavLink to="/About" className="nav-link">
+									{t('guide')}
+								</NavLink>
+							</li>
+							<li className="nav-item">
 								<NavLink to="/Learn" className="nav-link">
 									{t('learn')}
 								</NavLink>
@@ -54,11 +59,6 @@ const Layout = () => {
 							<li className="nav-item">
 								<NavLink to="/Chat" className="nav-link">
 									{t('chat')}
-								</NavLink>
-							</li>
-							<li className="nav-item">
-								<NavLink to="/About" className="nav-link">
-									{t('guide')}
 								</NavLink>
 							</li>
 							<li className="nav-item">
