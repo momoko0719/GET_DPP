@@ -78,6 +78,20 @@ const useCollectionsData = () => {
       frontHTML: <>{t("flashcard11front")}</>,
       backHTML: <>{t("flashcard11back")}</>,
     },
+    {
+      id: 12,
+      frontHTML: (
+        <div className="flashcontent">
+          <img className="trophy" alt="Trophy" src="imgs/trophy.png" />
+          <div>
+            {t("flashcard12front")}
+          </div>
+          
+          
+        </div>
+      ),
+      backHTML: <>{t("flashcard12back")}</>,
+    },
   ];
 };
 
