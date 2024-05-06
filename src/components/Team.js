@@ -18,7 +18,11 @@ const Team = () => {
       <div className="abt-section2">
         <div className="aboutcard">
           <img src="/imgs/frank.png" alt="Photo of Frank" className="card-img" />
-          <div className="card-name">Frank Martinez (Sponsor)</div>
+          <div className="card-name">Frank Martinez (Sponsor)
+            <a href="https://www.lastmyle.co/">
+              <img src="/imgs/lastmyle.png" alt="Last Myle LLC Icon" className="lastmyle-icon" />
+            </a>
+          </div>
         </div>
         <div className="aboutcard">
           <img src="/imgs/axel.jpg" alt="Photo of Axel" className="card-img" />
